@@ -1,0 +1,87 @@
+body{
+    background-image: url("chackerBG.png");
+    background-size: 25%;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: aliceblue;
+    text-align: center;
+    margin: 25px 0px 100px 0px;
+    text-shadow:-2px 2px 0 #3e3970;
+}
+
+.btns{
+    display: flex;
+    margin: 5px;
+}
+
+.container{
+    margin: auto;
+    padding: 0px;
+    background-color: white;
+    height: 40%;
+    width: 20%;
+    box-shadow: -3px 3px 0 #3e3970;
+    border-radius: 1.5%;
+}
+
+.values{
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    width: 30%;
+    height: 40px;
+    border-radius: 5%;
+    background-color:#8bd6ae ;
+    color: #fff;
+    margin: 15px;
+    justify-content: center;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.operators{
+    color: azure;
+}
+
+.middle{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+.tabBorder{
+    height: 25px;
+    width: 100%;
+    background-color: #f39818;
+    color:black;
+    align-items:left ;
+    margin: 0;
+    border-radius: 2%;
+}
+
+.result{
+    align-items: right;
+    background-color: #f3d07f;
+    color: black;
+    width: 90%;
+    height: 60px;
+    left: 40px;
+    border-radius: 25px;
+    margin: 15px;
+    margin-top: 20px;
+}
+
+img{
+    width: 13px;
+    height: 13px;
+    background-color: #f3d07f;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 1%;
+}
